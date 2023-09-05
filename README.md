@@ -1,4 +1,4 @@
-# ADI_IMU_TR_Driver_ROS2
+
 
 This repository is the ROS2 driver for ADI_IMU.
 
@@ -13,43 +13,8 @@ This repository is the ROS2 driver for ADI_IMU.
   <img src="doc/imu-platform.jpg" width="40%"/>
 </div>
 
-### Demo movie
-
-Click the thumbnail to open the youtube video.
-  [![Adi-IMU-TR](http://img.youtube.com/vi/2emmX7TSa1U/0.jpg)](https://www.youtube.com/watch?v=2emmX7TSa1U "Adi-IMU-TR")
-
-### Compatible sensors
-
-This software is compatible with these sensors.
-
-- TR-IMU16470
-- TR-IMU16475-2
-- TR-IMU-Platform
-
-### Operating environment
-
-This software has been confirmed to work on the following OS and ROS versions.
-
-- Ubuntu 18.04 LTS + ros2 dashing (This is not maintained. If you use it, use the dashing_eloquent branch.)
-- Ubuntu 18.04 LTS + ros2 eloquent (This is not maintained. If you use it, use the dashing_eloquent branch.)
-- Ubuntu 20.04 LTS + ros2 foxy or galactic (Use the foxy_galactic branch.)
-- Ubuntu 22.04 LTS + ros2 humble (Use the humble branch.)
 
 
-### How to use
-
-#### Port setting
-
-Add the user to the dialout group to use the USB port as the login user. (If you have already added it, skip this item)
-Execute the following command.
-
-```
-$ sudo addgroup `whoami` dialout
-```
-
-Then, log out and log in again to reflect the settings.
-
-#### DIP switch settings
 
 First, set the DIP switch.
 
